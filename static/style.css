@@ -21,7 +21,6 @@ section {
   height: fit-content;
   display: none;
 }
-
 .head-container {
   padding: 20px;
   background-color: #222831;
@@ -92,7 +91,6 @@ button {
 
 .weather-item {
   flex: 1;
-  min-width: 300px;
   margin-bottom: 20px;
 }
 
@@ -212,15 +210,16 @@ aside {
   .city p {
     margin-bottom: 20px;
   }
-  .weather-location {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .weather-location p {
-    margin-bottom: 10px;
-  }
-  button {
+   .weather-location {
     width: 100%;
-    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    flex-wrap: wrap;
   }
+    .weather-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
