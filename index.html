@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="./static/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header" id="header">
+        <div class="head-container">
+          <h1>Welcome to Jay Weather Forecast</h1>
+          <p>Your Personalized Weather Update</p>
+          <div class="form">
+            <input
+              type="text"
+              placeholder="Search For Cities"
+              id="seachCity1"
+            />
+            <button id="seachBtn1">Seach</button>
+          </div>
+        </div>
+      </div>
+      <section id="section">
+        <!-- weather header -->
+        <div class="Weather-header">
+          <input type="text" placeholder="Search For Cities" id="seachCity" />
+          <button id="seachBtn">Seach</button>
+        </div>
+
+        <div class="weather-content">
+          <div class="weather-item">
+          </div>
+          <aside>
+            <p>7-DAY FORCAST</p>
+            <div class="weather-forcast">
+              <div class="aside-item">
+                <p class="day">mon</p>
+                <div class="aside-img">
+                  <img src="./image/cloud.jpeg" alt="" class="forecastImg" />
+                  <p class="weatherCondition">suuny</p>
+                </div>
+                <p>
+                  <span class="highTempt">90</span
+                  ><span class="lowTemp">90</span>
+                </p>
+              </div>
+              <div class="borderr"></div>
+              <div class="aside-item">
+                <p class="day">Tue</p>
+                <div class="aside-img">
+                  <img src="./image/cloud.jpeg" alt="" class="forecastImg" />
+                  <p class="weatherCondition">ThurderStome</p>
+                </div>
+                <p>
+                  <span class="highTempt">90</span
+                  ><span class="lowTemp">90</span>
+                </p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </header>
+    <script src="./static/script.js"></script>
+  </body>
+</html>
